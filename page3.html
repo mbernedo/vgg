@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Web T</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        @font-face {
+            font-family: titulo;
+            src: url('fonts/Arcon-Regular.otf');
+        }
+
+        @font-face {
+            font-family: parrafo;
+            src: url('fonts/Arcon-Regular.otf');
+        }
+
+        .blockquote-footer::before {
+            content: "\2014\00A0";
+            color: white;
+            font-size: 40px;
+        }
+
+        .navcito:hover {
+            background-color: #232323;
+            color: #72b728 !important;
+        }
+
+        .headhover:hover {
+            color: white !important;
+        }
+    </style>
+</head>
+
+<body style="background-color: black; margin-top: 2%; margin: 0;">
+    <a href="https://wa.me/51955121801" target="_blank"><img src="images/3.png" class="img-fluid sticky-top"
+            style="height: 45px; display: block; position: fixed; top: 250px; right: 30px;" /></a>
+    <div class="row sticky-top" style="width: 100%; padding-top: 2%; background-color: black;">
+        <div class="col-4">
+            <ul class="nav justify-content">
+                <li class="nav-item">
+                    <a class="nav-link active" style="color: white" href="index.html"><img src="images/Logo-1.png"
+                            class="img-fluid" alt="..."></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link headhover" style="color: #7f7d78; font-family: titulo;"
+                        href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link headhover" style="color: #7f7d78; font-family: titulo;" href="#">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle headhover" data-toggle="dropdown"
+                        style="color: #7f7d78; font-family: titulo;" href="#" role="button" aria-haspopup="true"
+                        aria-expanded="false">PROYECTOS</a>
+                    <div class="dropdown-menu" style="background-color: #232323;">
+                        <a class="dropdown-item navcito" style="color: white; font-family: titulo;"
+                            href="page2.html">NUEVO LANZAMIENTO</a>
+                        <div class="dropdown-divider" style="color: white;"></div>
+                        <a class="dropdown-item navcito" style="color: white; font-family: titulo;"
+                            href="page4.html">PROYECTOS
+                            ENTREGADOS</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link headhover" style="color: #7f7d78; font-family: titulo;"
+                        href="#contactanos">CONTÁCTANOS</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" style="color: white" href="#">
+                        <i class="fab fa-whatsapp" style="margin-right: 10px;"></i>955 121 737</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center" style="margin-bottom: 25px;">
+                <img src="images/VGG-logo.png" style="height: 80px;" class="img-fluid" />
+            </div>
+            <div class="col-12 text-center">
+                <p style="color: white; font-family: parrafo;">Una Empresa Peruana, desarrollada con capitales peruanos,
+                    dedicada al
+                    desarrollo de proyectos inmobiliarios</p>
+            </div>
+            <div class="col-12 text-center">
+                <p style="color: white; font-family: parrafo;">Cuenta con tres divisiones: Inmobiliaria, Asesorias de
+                    Diseños y Edificaciones
+                    el mejor</p>
+            </div>
+            <div class="col-12 text-center">
+                <p style="color: white; font-family: parrafo;">departamento que se adapte a tus necesidades. </p>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="row" style="background-color: #313131;">
+        <div class="col-7 d-flex">
+            <img src="images/EditImg.png" class="img-fluid" />
+        </div>
+        <div class="col-5" style="padding-right: 150px;">
+            <div class="card w-100" style="background-color: black;">
+                <div class="card-body">
+                    <h5 class="card-title" style="border-bottom: white solid 2px; color: white; font-family: titulo">
+                        Misión</h5>
+                    <p class="card-text" style="color: white; font-family: parrafo;">Contribuir que nuestros clientes
+                        accedan a la mejor
+                        opción en la compra de su vivienda y ser autor de su
+                        diseño y acabado a través de servicios de asesorías y
+                        personalización.</p>
+                </div>
+            </div>
+            <br><br>
+            <div class="card w-100" style="background-color: black;">
+                <div class="card-body">
+                    <h5 class="card-title" style="border-bottom: white solid 2px; color: white; font-family: titulo;">
+                        Visión</h5>
+                    <p class="card-text" style="color: white; font-family: parrafo;">Consolidar nuestra empresa siendo
+                        líder en el
+                        servicio
+                        de personalización en las medianas constructoras.
+                        Contribuyendo al crecimiento de la ciudad de manera
+                        ordenada, a la vanguardia de la estética y funcionalidad
+                        de los diseños.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row d-flex align-items-center" id="graphic"
+        style="background-image: url(images/img.png); background-size: 100% 100%; height: 350px;">
+        <div class="col-12 text-center">
+            <img src="images/Text.png" class="img-fluid" style="width: 1000px" />
+        </div>
+    </div>
+    <div class="container">
+        <br><br>
+        <div class="row" id="contactanos">
+            <div class="col-12 text-center" style="color: white; font-size: 180%; font-family: titulo;">Contáctanos
+            </div>
+            <div class="col-12 text-center" style="color: white; font-size: 80%; font-family: parrafo;">REGÍSTRESE PARA
+                RECIBIR NUESTRAS
+                ÚLTIMAS NOTICIAS Y OFERTAS</div>
+            <br><br>
+            <div class="col-8 offset-md-2 text-center">
+                <form>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Nombres y Apellidos"
+                                    style="font-family: parrafo;">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Teléfono"
+                                    style="font-family: parrafo;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Correo Electrónico" style="font-family: parrafo;">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="5"
+                            style="font-family: parrafo;"></textarea>
+                    </div>
+                    <br><br>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-4 offset-md-4">
+                                <button type="button" class="btn btn-outline-dark btn-block"
+                                    style="color: white; border: 3px solid white; border-radius: 10px; font-family: parrafo;">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-4 offset-md-4">
+                                <a href="mailto:vggedificaciones@gmail.com" target="_blank"
+                                    style="color: gray; border-bottom: 3px solid gray; font-size: 120%; font-family: parrafo;">vggedificaciones@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background-color: #313131; padding: 6%">
+        <div class="col-7">
+            <div class="col-12 text-center" style="color: white; font-size: 180%">
+                <img src="images/2.png" class="img-fluid" alt="...">
+            </div>
+            <div class="col-12 text-center" style="color: white; font-size: 180%">
+                <div class="row">
+                    <div class="col-5"></div>
+                    <div class="col-1">
+                        <a href="#" style="color: white; padding-left: 0; padding-right: 0;"><i
+                                class="fab fa-facebook"></i></a>
+                    </div>
+                    <div class="col-1">
+                        <a href="https://wa.me/51955121801" target="_blank"
+                            style="color: white; padding-left: 0; padding-right: 0;"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="col-5"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-5">
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-5 offset-md-2" style="padding: 4%;">
+                        <p style="color: white; font-size: 85%; margin-bottom: 0; font-family: parrafo;">995 121 737 /
+                            955 121 801</p>
+                    </div>
+                    <div class="col-5">
+                        <h1 class="display-4" style="color: white;"><i class="fab fa-whatsapp fa-xs"></i>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-5 offset-md-2" style="padding: 4%;">
+                        <p style=" margin-bottom: 0"><a href="http://vggedificaciones.com/" target="_blank"
+                                style="color: white; font-size: 85%; font-family: parrafo;">www.vggedificaciones.com</a>
+                        </p>
+                        <p style="margin-bottom: 0"><a href="mailto:infoventas@vggedificaciones.com" target="_blank"
+                                style="color: white; font-size: 85%; font-family: parrafo;">infoventas@vggedificaciones.com</a>
+                        </p>
+                    </div>
+                    <div class="col-5">
+                        <h1 class="display-4" style="color: white"><i class="fas fa-globe-americas fa-xs"></i>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-5 offset-md-2" style="padding: 4%;">
+                        <p style="color: white; font-size: 85%; margin-bottom: 0; font-family: parrafo;">Plaza Santo
+                            Domingo</p>
+                        <p style="color: white; font-size: 85%; font-family: parrafo;">SURCO, LIMA 33 Lima</p>
+                    </div>
+                    <div class="col-5">
+                        <h1 class="display-4" style="color: white; margin: 0;"><i
+                                class="fas fa-map-marker-alt fa-xs"></i>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <small class="text-muted text-justify text-center"
+            style="color: gray; padding-top: 4%; font-family: parrafo;">Las imagenes, planos,
+            medidas y áreas son
+            referenciales por lo tanto pueden
+            presentar modificaciones en
+            el transcurso del proyecto.. Así mismo, los elementos decorativos, acabas y mobiliario son
+            propuestas y
+            apreciaciones
+            del departamento de diseño que no incluyen en la oferta comercial y no comprometen a la empresa
+            inmobiliaria.</small>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1b0ba374a4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
